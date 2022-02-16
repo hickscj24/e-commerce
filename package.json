@@ -19,7 +19,9 @@
   "homepage": "https://github.com/hickscj24/e-commerce#readme",
   "dependencies": {
     "dotenv": "^16.0.0",
+    "express": "^4.17.2",
     "mysql2": "^2.3.3",
-    "sequelize": "^6.15.0"
-  }
+    "sequelize": "^6.16.1"
+  },
+  "devDependencies": {}
 }
