@@ -1,7 +1,7 @@
 -- DROP DATABASE
 DROP DATABASE IF EXISTS ecommerce_db;
-CREATE DATABASE ecommerce_db
-USE ecommerce_db
+CREATE DATABASE ecommerce_db;
+USE ecommerce_db;
 CREATE TABLE category (
     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   category_name VARCHAR(30) NOT NULL
@@ -25,5 +25,5 @@ CREATE TABLE product_tag (
 );
 
 -- CREATE DATABASE
-CREATE DATABASE ecommerce_db;
+
 
