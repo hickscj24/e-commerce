@@ -7,6 +7,7 @@ const { Category, Product } = require('../../models');
 router.get('/', (req, res) => {
   // find all categories
   // be sure to include its associated Products
+  console.log('cody2'+ process.env)
   const categories = Category.findAll();
   res.send(JSON.stringify(categories, null, 2));
 });
